@@ -9,7 +9,7 @@ from os import system, name
 import requests
 
 os.system("clear")
-password ='vanny'
+password ='jerzzy'
 
 print("""\033[36m                              
  __         ______     ______     __     __   __    
@@ -92,7 +92,7 @@ def run():
 		    print("Down!!!")
 			    
 def run2():
-	data = random._urandom(815)
+	data = random._urandom(32100)
 	i = random.choice(("[☂]","[☂]","[☂]"))
 	while True:
 		try:
